@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.pengenalanbahasapemrograman.BahasaPemrograman">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/mengenal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="Mengenal Bahasa Pemrograman"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/mengenal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_pascal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="pascal"
+                android:textAllCaps="true"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btn_cpp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="C++"
+                android:textAllCaps="true"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btn_java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Java"
+                android:textAllCaps="true"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btn_ruby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="ruby"
+                android:textAllCaps="true"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/btn_python"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="python"
+                android:textAllCaps="true"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
